@@ -13,9 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Diwali Gift Hampers Online – Vanika Creations",
-  description:
-    "Shop premium Diwali hampers, sweets, dry fruits, chocolates & festive gifts at Vanika Creations. Perfect for family, friends & corporate gifting.",
+  title: "Vanika Creations | Diwali Gift Hampers – Warm, Elegant & Festive Gifting",
+  description: "Explore premium Diwali gift hampers by Vanika Creations. Sweets, dry fruits, chocolates & traditional decor—perfect for family & corporate gifting. Order now!",
+  keywords: [
+    "Diwali gift hampers",
+    "hampers India",
+    "festive gift boxes",
+    "Diwali gifts online",
+    "dry fruit hampers",
+    "Diwali hamper for family",
+    "premium gift hampers",
+  ],
 };
 
 export default function RootLayout({
