@@ -467,7 +467,7 @@ export default function Home() {
       {/* Download Resume Section */}
       <div className="text-center p-8 bg-[#F5EFE6] border-t border-[#E1B07E]/20">
         <a
-          href="/vanika-diwali-hampers.pdf"
+          href={`${process.env.BUCKET_URL}/vanika-diwali-hampers.pdf`}
           download
           className="inline-flex items-center space-x-2 bg-[#B08BBB] hover:bg-[#9A3324] text-white px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
         >
